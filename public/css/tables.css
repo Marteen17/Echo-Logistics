@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+    
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    }
+    tr{
+        transition: all ease-out 0.4s;
+    }
+    .rowtbl:hover{
+        background-color:var(--color-third);
+    }
+    tr td {
+        
+        white-space: nowrap;
+        height:3.5rem;
+    }
